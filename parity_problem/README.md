@@ -1,0 +1,2 @@
+# Parity Problem
+The problem definition: The parity problem returns 1 if the number of inputs that are 1 is even, and 0 otherwise. The algorithm is to compare the results between perceptron and linear regressor.
