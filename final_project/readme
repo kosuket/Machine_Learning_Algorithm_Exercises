@@ -1,0 +1,32 @@
+Final Project for COMSCI260 Machine Learning Algorithms at UCLA Engineering School
+
+Overview
+This program is developed for the final project for COMSCI260 Machine Learning Algorithms at UCL Engineering School.
+The project scope is to develop a neural network algorithm and a k-nearest neighbor algorithm 
+to best classify a medical data that has datetime + two other features.
+
+Library Requirement
+The following python libraries are required: sys, os, numpy, random, and math
+
+Arguments and Files
+Argument 1
+Both final_project_neuralnet.py and final_project_knn.py takes an argument, the folder name, 
+that includes an absolute path to the folder and folder name (i.e. /Users/XXX/Academic/CS260/outDataClass)
+The specified folder is required to contain csv files as input files that contain data points of a patient
+and the first line should be the label. Files needs to be named as PersonName_class (i.e. 2_0.csv).
+The class needs to be either 0 or 1.
+The csv file must contain 3 columns in the following order: date, feature_a, feature_b.
+
+Argument 2
+Additionally, final_project_knn.py can take one more argument, k. k is set to 1 by default.
+
+Output
+As an output, it prints metrics including 
+Average Accuracy
+Average Precision
+Average Recall
+Average Sensitivity
+Average Specificity
+Average F measure
+Average Confusion Matrix
+data points for ROC Curve (100 - specificity, sensitivity)
